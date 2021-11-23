@@ -1,0 +1,39 @@
+.course-info-wrapper{
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(65, 39, 0);
+    padding: 10px;
+}
+
+
+.course-info-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description-wrapper{
+    width: 60%;
+    padding: 1vh;
+}
+
+.description-wrapper-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+}
+
+.description-wrapper-info span{
+    margin-bottom: 1vh;
+}
+
+.close-btn{
+    position: absolute;
+    left: 0;
+    border:none;
+    background: none;
+   
+}

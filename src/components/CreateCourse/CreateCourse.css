@@ -1,0 +1,78 @@
+.create-course-wrapper{
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(65, 39, 0);
+    padding: 10px;
+}
+
+.course-name-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title-wrapper .input-wrapper{
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.course-name-wrapper textarea{
+    width: 100%;
+    max-width: 100%;
+    min-height: 70px;
+    border: 1px solid rgb(1, 102, 197);
+    margin-top: 5px;
+    padding: 0;
+}
+
+.author-wrapper{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.add-authors{
+    width: 50%;
+}
+
+.add-authors-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-authors-content div{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.choose-authors{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authors-block{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.authors-block span {
+    width: 150px;
+}

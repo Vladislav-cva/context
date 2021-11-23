@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 75px;
+    border: 1px solid black;
+}
+
+.user-block{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
